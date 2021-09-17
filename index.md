@@ -2,6 +2,10 @@
 
 I am a scientist working on single-cell functional genomics screens. As a personal note, I started this page to summarize all the single-cell genomics and relevant technologies. The field is moving very fast and we see new coming out publishing almost every single month. And therefore the goal here is not to create the most comprehensive list for all the published assays, but only focus on the methods that I am actively using or could potentially be useful for my future researches. 
 
+## Overview of all the 10X-related Technolgies
+
+![Technology Overview](/assets/images/All_methods-01.png)
+
 ## General Considerations
 
 There are many directions that the field is trying to making progress, including:
