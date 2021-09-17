@@ -10,15 +10,17 @@ There are many directions that the field is trying to making progress, including
 2. Higher Throughput
 3. Multiple Modality
 4. Easier sample preparation / storage
-5. Introducing Perturbations
+5. Perturbations Introduction
+6. Lineage Tracing
 
 ## Methods
 
 ### *Sample Multiplexing*
 
-- Cell Hashing
-- MULTI-seq
+- [Cell Hashing](subpages/cell_hashing.md)
+- [MULTI-seq](subpages/multiseq.md)
 - 10X Genomics CellPlex
+- Genetic Multiplexing
 
 ### *Higher Throughput*
 
@@ -30,12 +32,30 @@ There are many directions that the field is trying to making progress, including
 - SHARE-seq
 - 10X Genomics 3' RNA-seq HT kit
 
+#### **Perturbations**
+
+##### CRISPR-based Methods
+
+- Perturb-seq
+- CROP-seq
+- Mosaic-seq
+- 10X Genomics Feature Barcoding
+
+##### Overexpress ORFs
+
+- Reprogram-seq
+- Perturb-seq (a variant)
+
 ### *Multiple Modality*
 
 #### **RNA + Protein**
 
 - CITE-seq
 - 10X Genomics Feature Barcoding
+
+#### **ATAC +  Protein**
+
+- ASAP-seq
 
 #### **RNA + ATAC**
 
@@ -50,3 +70,4 @@ There are many directions that the field is trying to making progress, including
 #### **RNA + Protein + Perturbations**
 
 - ECCITE-seq
+- 
