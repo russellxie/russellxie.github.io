@@ -11,14 +11,13 @@ A technology to use lipid modified oligos to label cells with different conditio
 
 ### Pros
 
-- Compatible with a wide variety of methods, including any poly-dT based scRNA-seq pipeline and 10X feature barcoding / 5'scRNA-seq workflow.
+- Compatible with any oligo-dT based 3' capturing methods.
 - Ease of doing.
-- Antibody staining is very stable, and can survive FACS sorting of the cells.
-- Commercially available through BioLegend.
+- Very affordable price, with CMO synthesized by IDT the cost is only ~$0.20 per staining.
+- Barcodes are fully customizable and therefore unlimited numbers of samples can be multiplexed.
 
 ### Cons
 
-- Price is relatively high (~$20 per staining) compared with MULTI-seq; but chaper than 10X Cellplex.
-- *In situ* labeling is yet to be tested, have to dissociate the samples into single cell suspension first.
-- Limited numbers of barcodes commercially available (only 14).
-- Customization of barcode is not easy (need customized antibody conjugation).
+- LMO is not commercially available.
+- Labeling is not thermostable.
+- Not compatible with fixed samples (cholesterol or lipid update might be limited).

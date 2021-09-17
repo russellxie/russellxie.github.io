@@ -19,7 +19,7 @@ A technology to use antibodies to label cells with different conditions. Share t
 
 ### Cons
 
-- Price is relatively high (~$20 per staining) compared with MULTI-seq; but chaper than 10X Cellplex.
+- Price is relatively high (~$20 per staining) compared with MULTI-seq; but more affordable than 10X Cellplex.
 - *In situ* labeling is yet to be tested, have to dissociate the samples into single cell suspension first.
 - Limited numbers of barcodes commercially available (only 14).
 - Customization of barcode is not easy (need customized antibody conjugation).
