@@ -4,7 +4,7 @@ I am a scientist working on single-cell functional genomics screens. As a person
 
 ## Overview of all the 10X-related Technolgies
 
-![Technology Overview](/assets/images/All_methods-01.png)
+![Technology Overview](/assets/img/All_methods-01.png)
 
 ## General Considerations
 
