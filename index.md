@@ -1,6 +1,14 @@
 # Single-cell Genomics Assays
 
-I am a scientist working on single-cell functional genomics screens. As a personal note, I started this page to summarize all the single-cell genomics and relevant technologies. The field is moving very fast and we see new method coming out publishing almost every single month. And therefore the goal here is not to create the most comprehensive list for all the published assays, but only focus on the methods that I am actively using or could potentially be useful for my future projects.
+## About this page
+
+My name is Shiqi (Russell) Xie, currently a scientist in Genentech working on single-cell genomics. As a personal note, I started this page to summarize all the single-cell genomics and relevant technologies. The field is moving very fast and we see new methods coming out publishing almost every single month. And therefore the goal here is not to create the most comprehensive list for all the published assays, but only focus on the methods that I am actively using or could potentially be useful for my future projects. I will also comment about their usages.
+
+## Disclaimer
+
+This website is for scientific discussion only. All the views, comments are my own.
+
+If you have any questions or comments, please contact me through my email: russellxie@gmail.com.
 
 ## Overview of all the 10X-related Technolgies
 
@@ -67,7 +75,7 @@ There are many directions that the field is making progress, including:
 
 - Dogma-seq
 - TEA-seq
-- NEAT-seq
+- [NEAT-seq](subpages/neatseq.md)
 
 #### **RNA + Protein + Perturbations**
 
