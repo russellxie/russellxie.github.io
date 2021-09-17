@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Single-cell Genomics Assays
 
-You can use the [editor on GitHub](https://github.com/russellxie/russellxie.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+I am a scientist working on single-cell functional genomics screens. As a personal note, I started this page to summarize all the single-cell genomics and relevant technologies. The field is moving very fast and we see new coming out publishing almost every single month. And therefore the goal here is not to create the most comprehensive list for all the published assays, but only focus on the methods that I am actively using or could potentially be useful for my future researches. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### General Considerations
 
-### Markdown
+There are many directions that the field is trying to making progress, including:
+1. Sample Multiplexing
+2. Higher Throughput
+3. Multiple Modality
+4. Easier sample preparation / storage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Methods
+#### *Sample Multiplexing*
+- Cell Hashing
+- MULTI-seq
+- 10X Genomics CellPlex
 
-```markdown
-Syntax highlighted code block
+#### *Higher Throughput*
+**Split-and-pool methods**
 
-# Header 1
-## Header 2
-### Header 3
+- sci-RNA-seq3
+- scifi-RNA-seq
+- SPLiT-seq
+- SHARE-seq
 
-- Bulleted
-- List
+**10X Genomics**
+- 10X Genomics 3' RNA-seq HT kit
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/russellxie/russellxie.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### *Multiple Modality*
+**RNA + Protein**
+- CITE-seq
+- 
