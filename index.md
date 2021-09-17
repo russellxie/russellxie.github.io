@@ -70,12 +70,12 @@ There are many directions that the field is making progress, including:
 #### **RNA + ATAC**
 
 - 10X Genomics Multiome
+- SHARE-seq
   
 #### **RNA + ATAC + Protein**
 
-- Dogma-seq
-- TEA-seq
-- [NEAT-seq](subpages/neatseq.md)
+- Dogma-seq, TEA-seq (cell surface proteins)
+- [NEAT-seq](subpages/neatseq.md) (Intracellular protein staining)
 
 #### **RNA + Protein + Perturbations**
 
