@@ -8,7 +8,7 @@ I am a scientist working on single-cell functional genomics screens. As a person
 
 ## General Considerations
 
-There are many directions that the field is trying to making progress, including:
+There are many directions that the field is making progress, including:
 
 1. Sample Multiplexing
 2. Higher Throughput
