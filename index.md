@@ -17,10 +17,10 @@ There are many directions that the field is trying to making progress, including
 
 ### *Sample Multiplexing*
 
-- [Cell Hashing](subpages/cell_hashing.md)
-- [MULTI-seq](subpages/multiseq.md)
-- 10X Genomics CellPlex
-- Genetic Multiplexing
+- [Cell Hashing](subpages/cell_hashing.md) (Antibody)
+- [MULTI-seq](subpages/multiseq.md) (Lipid-modified oligo, double stranded)
+- 10X Genomics CellPlex (lipid-modified oligo, single-stranded)
+- Genetic Multiplexing (computational method)
 
 ### *Higher Throughput*
 
@@ -29,19 +29,17 @@ There are many directions that the field is trying to making progress, including
 - sci-RNA-seq3
 - scifi-RNA-seq
 - SPLiT-seq
-- SHARE-seq
 - 10X Genomics 3' RNA-seq HT kit
 
-#### **Perturbations**
+### **Perturbations**
 
-##### CRISPR-based Methods
+#### CRISPR-based Methods
 
-- Perturb-seq
-- CROP-seq
-- Mosaic-seq
-- 10X Genomics Feature Barcoding
+- Perturb-seq, Mosaic-seq, CRISP-seq (use barcodes to represent sgRNA)
+- CROP-seq (detect mRNA to represent sgRNA)
+- 10X Genomics Feature Barcoding (directly capture of sgRNA)
 
-##### Overexpress ORFs
+#### Overexpress ORFs
 
 - Reprogram-seq
 - Perturb-seq (a variant)

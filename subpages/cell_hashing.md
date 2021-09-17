@@ -23,3 +23,4 @@ A technology to use antibodies to label cells with different conditions. Share t
 - *In situ* labeling is yet to be tested, have to dissociate the samples into single cell suspension first.
 - Limited numbers of barcodes commercially available (only 14).
 - Customization of barcode is not easy (need customized antibody conjugation).
+
