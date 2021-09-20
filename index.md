@@ -32,12 +32,18 @@ There are many directions that the field is making progress, including:
 | Method      | Whole Cell | Nuclei | PFA Fixation | Methanol Fixation | Intracellular Protein | Modality |
 | ----------- | ---------- | ------ | ------------ | ----------------- | --------------------- | -------- |
 | 10X Genomics 3' scRNA-seq | Yes | Yes | Coming soon* | Yes | No | RNA |
-| MULTI-seq   | Yes (LMO preferred) | Yes (CMO Preferred) | No | No | | No | RNA |
+| MULTI-seq   | Yes (LMO preferred) | Yes (CMO Preferred) | No | No | No | RNA |
 | CellPlex    | Yes | Yes | No | No | No | RNA |
 | Cell Hashing / CITE-seq / REAP-seq | Yes | Yes | Coming soon* | NA | Coming Soon* | RNA + Protein |
-| ASAP-seq | NA | Yes (Permeabilized Cell) | Yes | NA | Yes | ATAC + Protein |
-| Dogma-seq / TEA-seq | NA | Yes (Permeabilized Cell) | Yes | NA | NA | RNA + ATAC + Protein |
-| NEAT-seq | NA | Yes (Permeabilized Cell) | Yes | NA | Yes | RNA + ATAC + Protein |
+| ASAP-seq | NA | Yes (Permeabilized Cell) | Yes (1%) | NA | Yes | ATAC + Protein |
+| Dogma-seq / TEA-seq | NA | Yes (Permeabilized Cell) | No | NA | NA | RNA + ATAC + Protein |
+| NEAT-seq | NA | Yes (Permeabilized Cell) | Yes (1.6%) | NA | Yes | RNA + ATAC + Protein |
+
+| Method      | Cost per reaction | Barcodes number |
+| ----------- | ---------- | ------ |
+| Cell Hashing / CITE-seq | $20 | 14 |
+| MULTI-seq | $0.2 | unlimited |
+| CellPlex | $60 | 12 |
 
 \*coming soon: 10X Genomics has annouced this feature earlier but the product has not been released.
 
