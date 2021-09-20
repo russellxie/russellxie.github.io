@@ -27,7 +27,7 @@ There are many directions that the field is making progress, including:
 
 ## Quick Comparison of Methods
 
-### Multi-modality methods
+### Multi-modality / Multiplexing methods
 
 | Method      | Whole Cell | Nuclei | PFA Fixation | Methanol Fixation | Intracellular Protein | Modality |
 | ----------- | ---------- | ------ | ------------ | ----------------- | --------------------- | -------- |
@@ -43,11 +43,13 @@ There are many directions that the field is making progress, including:
 
 \*coming soon: 10X Genomics has annouced this feature earlier but the product has not been released.
 
-| Method      | Cost per reaction | Barcodes number |
-| ----------- | ---------- | ------ |
-| Cell Hashing / CITE-seq | $20 | 15* |
-| MULTI-seq | $0.2 | unlimited |
-| CellPlex | $60 | 12 |
+### Cost comparison of the multiplexing methods
+
+| Method      | Cost per reaction | Barcodes number | 10X compatibility |
+| ----------- | ---------- | ------ | ------ |
+| Cell Hashing / CITE-seq | $20 | 15* | 3'/5' scRNA-seq |
+| MULTI-seq | $0.2 | unlimited | 3' scRRNA-seq |
+| CellPlex | $60 | 12 | 3' scRNA-seq with CS2 |
 
 \* BioLegend sells cell hashing antibodies with 15 different barcodes on their website. It is possible one can get more than 15 by customized antibody conjugation or through a customized order from BioLegend.
 
@@ -55,14 +57,14 @@ There are many directions that the field is making progress, including:
 
 | Method      | Perturbation Method | Captured Feature | Barcode used | Modified lentivirus backbone | Capturing Method | 10X Compatibility |
 | ----------- | ------------------- | ---------------- | ------------ | ---------------------------- | ---------------- | ----------------- |
-| Perturb-seq | CRISPR | mRNA | Yes | Yes | oligo-dT | 3' scRNA-seq |
-| CRISPR-seq  | CRISPR | mRNA | Yes | Yes | oligo-dT | 3' scRNA-seq |
-| Mosaic-seq  | CRISPR | mRNA | Yes | Yes | oligo-dT | 3' scRNA-seq |
+| Perturb-seq | CRISPR | mRNA | Yes | Yes | dT oligo | 3' scRNA-seq |
+| CRISPR-seq  | CRISPR | mRNA | Yes | Yes | dT oligo | 3' scRNA-seq |
+| Mosaic-seq  | CRISPR | mRNA | Yes | Yes | dT oligo | 3' scRNA-seq |
 | CROP-seq | CRISPR | mRNA | No | Yes | oligo-dT | 3' scRNA-seq |
 | Feature Barcoding | CRISPR | sgRNA | No | Yes | Capture Sequence | 3' scRNA-seq |
 | ECCITE-seq | CRISPR | sgRNA | No | No | sgRNA-specific primer | 5' scRNA-seq |
 | Spear-ATAC | CRISPR | sgRNA | No | Yes | sgRNA-specific primer | scATAC-seq |
-| Reprogram-seq | ORF Overexpression | mRNA | Yes | Yes | oligo-dT / Capture Sequence | 3' scRNA-seq |
+| Reprogram-seq | ORF Overexpression | mRNA | Yes | Yes | dT oligo / Capture Sequence | 3' scRNA-seq |
 
 ## Methods
 
@@ -118,7 +120,7 @@ There are many directions that the field is making progress, including:
 
 #### **Chromatin Binding + Protein**
 
--scCUT&TAG-pro
+- scCUT&TAG-pro
   
 #### **RNA + ATAC + Protein**
 
