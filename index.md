@@ -41,13 +41,15 @@ There are many directions that the field is making progress, including:
 | Dogma-seq / TEA-seq | NA | Yes (Permeabilized Cell) | No | NA | NA | RNA + ATAC + Protein |
 | NEAT-seq | NA | Yes (Permeabilized Cell) | Yes (1.6%) | NA | Yes | RNA + ATAC + Protein |
 
+\*coming soon: 10X Genomics has annouced this feature earlier but the product has not been released.
+
 | Method      | Cost per reaction | Barcodes number |
 | ----------- | ---------- | ------ |
-| Cell Hashing / CITE-seq | $20 | 14 |
+| Cell Hashing / CITE-seq | $20 | 15* |
 | MULTI-seq | $0.2 | unlimited |
 | CellPlex | $60 | 12 |
 
-\*coming soon: 10X Genomics has annouced this feature earlier but the product has not been released.
+\* BioLegend sells cell hashing antibodies with 15 different barcodes on their website. It is possible one can get more than 15 by customized antibody conjugation or through a customized order from BioLegend.
 
 ### Perturbation detection
 
@@ -97,7 +99,7 @@ There are many directions that the field is making progress, including:
 
 #### **RNA + Protein**
 
-- CITE-seq / REAP-seq
+- [CITE-seq / REAP-seq](subpages/cell_hashing.md)
 - 10X Genomics Feature Barcoding
 - QuRIE-seq
 
@@ -113,6 +115,10 @@ There are many directions that the field is making progress, including:
 
 - 10X Genomics Multiome
 - SHARE-seq
+
+#### **Chromatin Binding + Protein**
+
+-scCUT&TAG-pro
   
 #### **RNA + ATAC + Protein**
 
