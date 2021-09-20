@@ -27,15 +27,31 @@ There are many directions that the field is making progress, including:
 
 ## Quick Comparison of Methods
 
-| Method      | Whole Cell | Nuclei | PFA Fixation | Methanol Fixation | Modality |
-| ----------- | ---------- | ------ | ------------ | ----------------- | -------- |
-| 10X Genomics 3' scRNA-seq | Yes | Yes | Coming soon | Yes | RNA |
-| MULTI-seq   | Yes (LMO preferred) | Yes (CMO Preferred) | No | No | RNA |
-| CellPlex    | Yes | Yes | No | No | RNA |
-| Cell Hashing / CITE-seq | Yes | Yes | Coming soon | NA | RNA + Protein |
-| ASAP-seq | NA | Yes (Permeabilized Cell) | Yes | NA | ATAC + Protein |
-| Dogma-seq / TEA-seq | NA | Yes (Permeabilized Cell) | Yes | NA | RNA + ATAC + Protein |
-| NEAT-seq | NA | Yes (Permeabilized Cell) | Yes | NA | RNA + ATAC + Protein |
+### Multi-modality methods
+
+| Method      | Whole Cell | Nuclei | PFA Fixation | Methanol Fixation | Intracellular Protein | Modality |
+| ----------- | ---------- | ------ | ------------ | ----------------- | --------------------- | -------- |
+| 10X Genomics 3' scRNA-seq | Yes | Yes | Coming soon* | Yes | No | RNA |
+| MULTI-seq   | Yes (LMO preferred) | Yes (CMO Preferred) | No | No | | No | RNA |
+| CellPlex    | Yes | Yes | No | No | No | RNA |
+| Cell Hashing / CITE-seq / REAP-seq | Yes | Yes | Coming soon* | NA | Coming Soon* | RNA + Protein |
+| ASAP-seq | NA | Yes (Permeabilized Cell) | Yes | NA | Yes | ATAC + Protein |
+| Dogma-seq / TEA-seq | NA | Yes (Permeabilized Cell) | Yes | NA | NA | RNA + ATAC + Protein |
+| NEAT-seq | NA | Yes (Permeabilized Cell) | Yes | NA | Yes | RNA + ATAC + Protein |
+
+\*coming soon: 10X Genomics has annouced this feature earlier but the product has not been released.
+
+### Perturbation detection
+
+| Method      | Perturbation Type | Captured Feature | Barcode used | Capturing Method |
+| ----------- | ----------------- | ---------------- | ------------ | ---------------- |
+| Perturb-seq | CRISPR | mRNA | Yes | oligo-dT |
+| CRISPR-seq  | CRISPR | mRNA | Yes | oligo-dT |
+| Mosaic-seq  | CRISPR | mRNA | Yes | oligo-dT |
+| CROP-seq | CRISPR | mRNA | No | oligo-dT |
+| Feature Barcoding | CRISPR | sgRNA | No | Capture Sequence |
+| ECCITE-seq | CRISPR | sgRNA | No | sgRNA-specific primer |
+| Reprogram-seq | Overexpression | ORF | Yes | oligo-dT / Capture Sequence |
 
 ## Methods
 
