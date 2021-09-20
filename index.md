@@ -43,15 +43,16 @@ There are many directions that the field is making progress, including:
 
 ### Perturbation detection
 
-| Method      | Perturbation Type | Captured Feature | Barcode used | Capturing Method |
-| ----------- | ----------------- | ---------------- | ------------ | ---------------- |
-| Perturb-seq | CRISPR | mRNA | Yes | oligo-dT |
-| CRISPR-seq  | CRISPR | mRNA | Yes | oligo-dT |
-| Mosaic-seq  | CRISPR | mRNA | Yes | oligo-dT |
-| CROP-seq | CRISPR | mRNA | No | oligo-dT |
-| Feature Barcoding | CRISPR | sgRNA | No | Capture Sequence |
-| ECCITE-seq | CRISPR | sgRNA | No | sgRNA-specific primer |
-| Reprogram-seq | Overexpression | ORF | Yes | oligo-dT / Capture Sequence |
+| Method      | Perturbation Method | Captured Feature | Barcode used | Modified lentivirus backbone | Capturing Method | 10X Compatibility |
+| ----------- | ------------------- | ---------------- | ------------ | ---------------------------- | ---------------- | ----------------- |
+| Perturb-seq | CRISPR | mRNA | Yes | Yes | oligo-dT | 3' scRNA-seq |
+| CRISPR-seq  | CRISPR | mRNA | Yes | Yes | oligo-dT | 3' scRNA-seq |
+| Mosaic-seq  | CRISPR | mRNA | Yes | Yes | oligo-dT | 3' scRNA-seq |
+| CROP-seq | CRISPR | mRNA | No | Yes | oligo-dT | 3' scRNA-seq |
+| Feature Barcoding | CRISPR | sgRNA | No | Yes | Capture Sequence | 3' scRNA-seq |
+| ECCITE-seq | CRISPR | sgRNA | No | No | sgRNA-specific primer | 5' scRNA-seq |
+| Spear-ATAC | CRISPR | sgRNA | No | Yes | sgRNA-specific primer | scATAC-seq |
+| Reprogram-seq | ORF Overexpression | mRNA | Yes | Yes | oligo-dT / Capture Sequence | 3' scRNA-seq |
 
 ## Methods
 
