@@ -8,7 +8,7 @@ My name is Shiqi (Russell) Xie, currently a scientist in Genentech working on si
 
 This website is for scientific discussion only. All the views, comments are my own.
 
-If you have any questions or comments, please contact me through my email: russellxie@gmail.com.
+If you have any questions or suggestion, please contact me through my email: <russellxie@gmail.com>.
 
 ## Overview of all the 10X-related Technolgies
 
@@ -24,6 +24,18 @@ There are many directions that the field is making progress, including:
 4. Easier sample preparation / storage
 5. Perturbations Introduction
 6. Lineage Tracing
+
+## Quick Comparison of Methods
+
+| Method      | Whole Cell | Nuclei | PFA Fixation | Methanol Fixation | Modality |
+| ----------- | ---------- | ------ | ------------ | ----------------- | -------- |
+| 10X Genomics 3' scRNA-seq | Yes | Yes | Coming soon | Yes | RNA |
+| MULTI-seq   | Yes (LMO preferred) | Yes (CMO Preferred) | No | No | RNA |
+| CellPlex    | Yes | Yes | No | No | RNA |
+| Cell Hashing / CITE-seq | Yes | Yes | Coming soon | NA | RNA + Protein |
+| ASAP-seq | NA | Yes (Permeabilized Cell) | Yes | NA | ATAC + Protein |
+| Dogma-seq / TEA-seq | NA | Yes (Permeabilized Cell) | Yes | NA | RNA + ATAC + Protein |
+| NEAT-seq | NA | Yes (Permeabilized Cell) | Yes | NA | RNA + ATAC + Protein |
 
 ## Methods
 
@@ -60,8 +72,9 @@ There are many directions that the field is making progress, including:
 
 #### **RNA + Protein**
 
-- CITE-seq
+- CITE-seq / REAP-seq
 - 10X Genomics Feature Barcoding
+- QuRIE-seq
 
 #### **ATAC +  Protein**
 

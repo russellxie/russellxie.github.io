@@ -1,6 +1,6 @@
-# Cell Hashing
+# CITE-seq / Cell Hashing
 
-A technology to use antibodies to label cells with different conditions. Share the similar philosophy with CITE-seq, but use universially expressed cell surface proteins such as b2m.
+The CITE-seq and Cell Hashing share the same
 
 ## Resources
 
@@ -23,3 +23,7 @@ A technology to use antibodies to label cells with different conditions. Share t
 - *In situ* labeling is yet to be tested, have to dissociate the samples into single cell suspension first.
 - Limited numbers of barcodes commercially available (only 14).
 - Customization of barcode is not easy (need customized antibody conjugation).
+
+## Limitations and on-going efforts
+
+The original CITE-seq / Cell Hashing paper
