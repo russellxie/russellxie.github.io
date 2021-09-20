@@ -8,7 +8,7 @@ My name is Shiqi (Russell) Xie, currently a scientist in Genentech working on si
 
 This website is for scientific discussion only. All the views, comments are my own.
 
-If you have any questions or suggestion, please contact me through my email: <russellxie@gmail.com>.
+If you have any questions or suggestions, please contact me through my email: <russellxie@gmail.com>.
 
 ## Overview of all the 10X-related Technolgies
 
@@ -36,6 +36,8 @@ There are many directions that the field is making progress, including:
 | CellPlex    | Yes | Yes | No | No | No | RNA |
 | Cell Hashing / CITE-seq / REAP-seq | Yes | Yes | Coming soon* | NA | Coming Soon* | RNA + Protein |
 | ASAP-seq | NA | Yes (Permeabilized Cell) | Yes (1%) | NA | Yes | ATAC + Protein |
+| scCUT&TAG | NA | Yes | No | No | No | Chromatin Binding |
+| scCUT&TAG-pro | NA | Yes | Yes (0.1%) | NA | Yes | Chromatin Binding + Protein |
 | Dogma-seq / TEA-seq | NA | Yes (Permeabilized Cell) | No | NA | NA | RNA + ATAC + Protein |
 | NEAT-seq | NA | Yes (Permeabilized Cell) | Yes (1.6%) | NA | Yes | RNA + ATAC + Protein |
 
