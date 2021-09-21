@@ -1,6 +1,6 @@
 # CITE-seq / Cell Hashing / REAP-seq
 
-The CITE-seq / Cell Hashing / REAP-seq share the same philosophy in which a barcoded DNA oligo is conjugated with certain antibody, and during the scRNA-seq library preparation the oligo is captured by the reverse transcription primers as part of the cDNA library. But sequencing the antibody oligo library together with the standard 10X GEX library, one can simultaneously acquire the protein expression level and transcriptome from the same cell. If some universially expressed protein such as B2M is used, the method can also be used to label and multiplex samples from different conditions. And that's where the variant method, Cell Hashing, is used for.
+The CITE-seq / Cell Hashing / REAP-seq share the same philosophy in which a barcoded DNA oligo is conjugated with certain antibody, and during the scRNA-seq library preparation the oligo is captured by the reverse transcription primers as part of the cDNA library. By sequencing the antibody oligo library together with the standard 10X GEX library, one can simultaneously acquire the protein expression level and transcriptome from the same cell. If some universially expressed protein such as β2m is used, the method can also be used to label and multiplex samples from different conditions. And that's where the variant method, Cell Hashing, is used for.
 
 ## Resources
 
@@ -23,7 +23,7 @@ The CITE-seq / Cell Hashing / REAP-seq share the same philosophy in which a barc
 
 - Price is relatively high (~$20 per staining) compared with MULTI-seq; but more affordable than 10X Cellplex.
 - *In situ* labeling is yet to be tested, have to dissociate the samples into single cell suspension first.
-- Limited numbers of barcodes commercially available (only 14).
+- Limited numbers of barcodes commercially available (only 15).
 - Customization of barcode is not easy (need customized antibody conjugation).
 
 ## Variants of the method
@@ -36,7 +36,7 @@ The CITE-seq / Cell Hashing / REAP-seq share the same philosophy in which a barc
 | TotalSeq-B | 3'scRNA-seq with Feature Barcoding | CS1 |
 | TotalSeq-C | 5'scRNA-seq | ADT-specific primer |
 
-### Full Protocols from 10X:
+### Full Protocols from 10X
 
 | 10X Genomics Kits |
 | ---- |

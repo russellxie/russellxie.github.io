@@ -7,6 +7,7 @@ A technology enables improved protein staining in the 10X Multiome assays.
 - [Link to the original Paper](https://www.biorxiv.org/content/10.1101/2021.07.29.454078v1)
 
 ## Overview of the method
+
 ![Overview](/assets/img/NEAT-seq_overview.png)
 
 ## Features

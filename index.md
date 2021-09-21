@@ -98,6 +98,7 @@ There are many directions that the field is making progress, including:
 - Perturb-seq (a variant)
 
 ### Lineage Tracing
+
 - TraCe-seq
 - Method through mtDNA
 - scGESTALT
