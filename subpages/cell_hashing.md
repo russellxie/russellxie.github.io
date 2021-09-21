@@ -28,8 +28,18 @@ The CITE-seq / Cell Hashing / REAP-seq share the same philosophy in which a barc
 
 ## Variants of the method
 
+![Overview](/assets/img/compatibility_figure_v1_totalseq.png)
+
 | Antibodies | 10X Compatibility | Captured Mechanism |
-| ---------- | ---------- | ------ |
+| ---------- | ----------------- | ------------------ |
 | TotalSeq-A | 3'scRNA-seq | dT Oligo on 10X beads |
 | TotalSeq-B | 3'scRNA-seq with Feature Barcoding | CS1 |
 | TotalSeq-C | 5'scRNA-seq | ADT-specific primer |
+
+### Full Protocols from 10X:
+
+| 10X Genomics Kits |
+| ---- |
+| [3'scRNA-seq LT Kit](https://assets.ctfassets.net/an68im79xiti/76TBxTG4NxQu2s55L9Cksd/d219ee543edc8f38e74efca953679d9e/CG000400_ChromiumNextGEMSingleCell3-_LT_v3.1_CellSurfaceProtein_RevB_.pdf) |
+| [3'scRNA-seq Std Kit](https://assets.ctfassets.net/an68im79xiti/5h2ArMSJZe0MFp4f23gJ1u/f36654916159ae8e9fe778ebf2cb8b67/CG000317_ChromiumNextGEMSingleCell3-v3.1_CellSurfaceProtein_RevC.pdf) |
+| [3'scRNA-seq HT Kit](https://downloads.ctfassets.net/an68im79xiti/2hXIgppU1g3un03JYsMMBp/009035394d1027e51e9b5d471c6bee7e/CG000417_Chromium_NextGEM_SingleCell3-_HT_v3.1_GeneExp_CellSurfProt_RevA.pdf) |

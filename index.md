@@ -31,7 +31,7 @@ There are many directions that the field is making progress, including:
 
 | Method      | Whole Cell | Nuclei | PFA Fixation | Methanol Fixation | Intracellular Protein | Modality |
 | ----------- | ---------- | ------ | ------------ | ----------------- | --------------------- | -------- |
-| 10X Genomics 3' scRNA-seq | Yes | Yes | Coming soon* | Yes | No | RNA |
+| 10X Genomics 3'/5' scRNA-seq | Yes | Yes | Coming soon* | Yes | No | RNA |
 | MULTI-seq   | Yes (LMO preferred) | Yes (CMO Preferred) | No | No | No | RNA |
 | CellPlex    | Yes | Yes | No | No | No | RNA |
 | Cell Hashing / CITE-seq / REAP-seq | Yes | Yes | Coming soon* | NA | Coming Soon* | RNA + Protein |
@@ -48,7 +48,7 @@ There are many directions that the field is making progress, including:
 | Method      | Cost per reaction | Barcodes number | 10X compatibility |
 | ----------- | ---------- | ------ | ------ |
 | Cell Hashing / CITE-seq | $20 | 15* | 3'/5' scRNA-seq |
-| MULTI-seq | $0.2 | unlimited | 3' scRRNA-seq |
+| MULTI-seq | $0.2 | unlimited | 3' scRNA-seq |
 | CellPlex | $60 | 12 | 3' scRNA-seq with CS2 |
 
 \* BioLegend sells cell hashing antibodies with 15 different barcodes on their website. It is possible one can get more than 15 by customized antibody conjugation or through a customized order from BioLegend.
@@ -60,7 +60,7 @@ There are many directions that the field is making progress, including:
 | Perturb-seq | CRISPR | mRNA | Yes | Yes | dT oligo | 3' scRNA-seq |
 | CRISPR-seq  | CRISPR | mRNA | Yes | Yes | dT oligo | 3' scRNA-seq |
 | Mosaic-seq  | CRISPR | mRNA | Yes | Yes | dT oligo | 3' scRNA-seq |
-| CROP-seq | CRISPR | mRNA | No | Yes | oligo-dT | 3' scRNA-seq |
+| CROP-seq | CRISPR | mRNA | No | Yes | dT oligoo | 3' scRNA-seq |
 | Feature Barcoding | CRISPR | sgRNA | No | Yes | Capture Sequence | 3' scRNA-seq |
 | ECCITE-seq | CRISPR | sgRNA | No | No | sgRNA-specific primer | 5' scRNA-seq |
 | Spear-ATAC | CRISPR | sgRNA | No | Yes | sgRNA-specific primer | scATAC-seq |
@@ -97,12 +97,17 @@ There are many directions that the field is making progress, including:
 - Reprogram-seq
 - Perturb-seq (a variant)
 
+### Lineage Tracing
+- TraCe-seq
+- Method through mtDNA
+- scGESTALT
+
 ### *Multiple Modality*
 
 #### **RNA + Protein**
 
 - [CITE-seq / REAP-seq](subpages/cell_hashing.md)
-- 10X Genomics Feature Barcoding
+- [10X Genomics Feature Barcoding](subpages/cell_hashing.md)
 - QuRIE-seq
 
 #### **ATAC +  Protein**
